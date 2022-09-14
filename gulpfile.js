@@ -9,10 +9,10 @@ gulp.task('serve', function () {
         server: {
           baseDir: "./"
         },
-        online: true,
-        tunnel: true,
-        tunnel: "nefely",
-        logLevel: "debug"
+        // online: true,
+        // tunnel: true,
+        // tunnel: "nefely",
+        // logLevel: "debug"
     });
     gulp.watch("./**/*.html").on("change", reload);
     gulp.watch("./**/*.css").on("change", reload);
